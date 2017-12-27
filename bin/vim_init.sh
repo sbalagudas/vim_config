@@ -1,14 +1,14 @@
 #!/bin/bash
 
 VIMRC_CONTENT="syntax on
-               set background=dark
-               colorscheme candy
-               set cursorline"
+set background=dark
+colorscheme candy
+set cursorline"
 
-echo ${VIMRC_CONTENT}
+echo  "${VIMRC_CONTENT}"
 
 echo "preparing vimrc..."
-echo ${VIMRC_CONTENT} > ~/.vimrc
+echo "${VIMRC_CONTENT}" > ~/.vimrc
 echo  "--------vimrc-----------"
 cat ~/.vimrc
 
